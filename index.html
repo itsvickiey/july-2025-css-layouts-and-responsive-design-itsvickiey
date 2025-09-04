@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts & Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Layouts & Responsive Design</h1>
+        <p>Demonstrating Flexbox and Grid layouts with responsive design principles</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section class="main-content">
+            <div class="content-wrapper">
+                <aside>
+                    <h2>Sidebar</h2>
+                    <p>This sidebar demonstrates the use of CSS Grid for layout.</p>
+                    <ul>
+                        <li>Grid Item 1</li>
+                        <li>Grid Item 2</li>
+                        <li>Grid Item 3</li>
+                        <li>Grid Item 4</li>
+                    </ul>
+                </aside>
+                
+                <main>
+                    <h2>Main Content Area</h2>
+                    <p>This is the main content section of the page, built using CSS Grid for the overall structure.</p>
+                    <p>Notice how the layout changes at different breakpoints. On mobile, the sidebar appears below the main content, while on larger screens it appears to the side.</p>
+                    
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Card 1</h3>
+                            <p>This card demonstrates Flexbox layout for the cards container. The cards will wrap and adjust based on screen size.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                        <div class="card">
+                            <h3>Card 2</h3>
+                            <p>Flexbox allows these cards to grow and shrink based on available space while maintaining consistent spacing.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                        <div class="card">
+                            <h3>Card 3</h3>
+                            <p>On mobile, these cards will stack vertically. On tablet and desktop, they will form columns.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 CSS Layouts & Responsive Design Demo</p>
+        <p>Built with Flexbox and CSS Grid</p>
+    </footer>
+</body>
+</html>
